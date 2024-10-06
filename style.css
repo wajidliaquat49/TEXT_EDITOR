@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: blanchedalmond; */
+
+}
+
+.bg {
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 88vh;
+}
+
+
+
+.heading {
+    width: 100vw;
+    height: 70px;
+    background-color: gray;
+
+
+
+}
+
+
+.heading h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+
+}
+
+/* .textArea-div {
+    margin: auto auto;
+} */
+
+.textArea-div textarea {
+    width: 1000px;
+    height: 250px;
+    position: relative;
+    left: 175px;
+    top: 15px;
+    background-color: gray;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.chooser {
+    /* width: 1150px; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+/* .text {
+    width: 100px;
+    height: 40px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+} */
+
+.fontsize input {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+
+}
+
+.fontsize input:hover {
+    background-color: black;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.cPicker {
+    width: 200px;
+    height: 40px;
+    /* border-radius: 6px; */
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+
+}
+
+.cPicker input {
+    width: 150px;
+    height: 40px;
+    /* border-radius: 6px; */
+    border: 1px solid black;
+
+}
+
+.pickertext {
+    width: 180px;
+    height: 38px;
+    background-color: gray;
+    border: 1px solid gray;
+    /* border-radius: 4px; */
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bold {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#bold:hover {
+    background-color: black;
+}
+
+#italic:hover {
+    background-color: black;
+}
+
+#underLine:hover {
+    background-color: black;
+}
+
+#upperCase:hover {
+    background-color: black;
+}
+
+#lowerCase:hover {
+    background-color: black;
+}
+
+#italic {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+}
+
+#underLine {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#upperCase {
+    width: 130px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#lowerCase {
+    width: 110px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#T {
+    color: chocolate;
+    /* font-weight: normal; */
+}
+
+#e {
+    color: greenyellow;
+    /* font-weight: normal; */
+}
+
+#x {
+    color: red;
+    /* font-weight: normal; */
+}
+
+#t {
+    color: black;
+    /* font-weight: normal; */
+}
+
+#C {
+    color: brown;
+    /* font-weight: normal; */
+}
+
+#oo {
+    color: white;
+    /* font-weight: normal; */
+}
+
+#l {
+    color: violet;
+    /* font-weight: normal; */
+}
+
+#o {
+    color: aqua;
+    /* font-weight: normal; */
+}
+
+#r {
+    color: yellow;
+    /* font-weight: normal; */
+}
+
+#s {
+    color: chartreuse;
+    /* font-weight: normal; */
+}
